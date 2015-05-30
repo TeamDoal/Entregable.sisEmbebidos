@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#00706f80">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#ff000000">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:textSize="@android:dimen/app_icon_size"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.17"></LinearLayout>
+
+        <ImageButton
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:layout_gravity="center_horizontal"
+            android:onClick= "Reportes"
+            android:src="@drawable/icprincipal3"
+            android:background="#ffffffff" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.21"></LinearLayout>
+
+        <ImageButton
+            android:layout_width="151dp"
+            android:layout_height="183dp"
+            android:id="@+id/imageButton4"
+            android:onClick="ImplicitIntentURL"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/icweb1"
+            android:background="#0bffffff" />
+    </LinearLayout>
+</LinearLayout>
