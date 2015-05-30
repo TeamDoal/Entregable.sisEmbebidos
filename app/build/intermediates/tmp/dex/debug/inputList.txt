@@ -1,2 +1,0 @@
-C:\Users\Lucia Ramirez\AndroidStudioProjects\proyecto21\app\build\intermediates\classes\debug
-C:\Users\Lucia Ramirez\AndroidStudioProjects\proyecto21\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e60c3193fb3d0d7409cc2680d27103ecea9a9e8b.jar
